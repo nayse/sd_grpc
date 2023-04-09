@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message CompraRequisicao {
+  string matricula_aluno = 1;
+  double valor_boleto = 2;
+}
+
+message CompraResposta {
+  string codigo_de_barras = 1;
+  double valor_boleto = 2;
+}
+
+service RestauranteUniversitario {
+  rpc ComprarTicket (CompraRequisicao) returns (CompraResposta) {}
+}
