@@ -24,19 +24,18 @@ pip install uuid
 
 ## Execução
 
-Dentro do diretório com o arquivo ticket.proto executar:
+Dentro do diretório com os arquivos, entre eles o _ticket.proto_ executar:
 ```
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. ticket.proto
 ```
 
-Isso irá gerar os arquivos ticket_pb2 e ticket_pb2_grpc, dentro do diretório principal do arquivo dos códigos. (Caso for gerar novos arquivos deletar o atuais)
+Isso irá gerar os arquivos ticket_pb2 e ticket_pb2_grpc, dentro do diretório junto a todos os códigos.
 
 Em prompts de comandos diferente executar o arquivo do servidor:
 
 ```
 python servidor_restaurante.py
 ```
-EM seguida execute o arquivo que direciona ao arquive do cliente: 
 ```
 python execute.py
 ```
