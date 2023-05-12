@@ -32,7 +32,7 @@ python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. exclusao_mutu
 
 Isso irá gerar os arquivos exclusao_mutua_pb2 e exclusao_mutua_pb2_grpc, dentro do diretório junto a todos os códigos.
 
-Em prompts de comandos diferente executar o arquivo do servidor:
+Em prompts de comandos diferente executar o arquivo do servidor/cliente:
 
 ```
 python servidor.py
