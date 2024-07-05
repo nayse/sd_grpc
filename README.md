@@ -2,8 +2,6 @@
 
 Disciplina: Sistemas Distribuidos
 
-Alunos: Nayse Fagundes e Gabriel Farias 
-
 ## Tema 7: Compra de ticket do Restaurante universitário
 
 o cliente informa matricula e valor a ser pago
